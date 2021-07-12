@@ -1,0 +1,31 @@
+.paginator {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+}
+
+.active {
+  cursor: pointer;
+  font-size: 18px;
+  color: #000;
+
+  margin: 0 10px;
+}
+
+.disabled {
+  cursor: pointer;
+  font-size: 18px;
+  color: #999;
+  margin: 0 10px;
+  pointer-events: none;
+}
+
+.currentPage {
+  color: #000;
+  padding: 1px 6px;
+  margin: 0 10px;
+  font-size: 18px;
+  border: 1px solid #999;
+}
